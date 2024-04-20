@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('assets/img/7.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="assets/img/1.jpg" target="_blank"><img src="assets/img/1.jpg" alt="Photo 1"></a>
+        <a href="assets/img/2.jpg" target="_blank"><img src="assets/img/2.jpg" alt="Photo 2"></a>
+        <a href="assets/img/3.jpg" target="_blank"><img src="assets/img/3.jpg" alt="Photo 3"></a>
+        <a href="assets/img/4.jpg" target="_blank"><img src="assets/img/4.jpg" alt="Photo 4"></a>
+        <a href="assets/img/5.jpg" target="_blank"><img src="assets/img/5.jpg" alt="Photo 5"></a>
+        <a href="assets/img/6.jpg" target="_blank"><img src="assets/img/6.jpg" alt="Photo 6"></a>
+    </div>
+</body>
+</html>
